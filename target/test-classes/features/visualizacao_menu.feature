@@ -10,4 +10,8 @@ Funcionalidade:
 	Cenário: Itens apresentados no menu Cars 
 		Dado que eu esteja na tela Home
 		Quando acesso o menu Cars
-		Então são apresentados os itens "Cars", "Extras" e "Cars Settings" 
+		Então será apresentado o item "Extras" do menu "Cars" 
+		
+		
+		
+		

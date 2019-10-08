@@ -26,10 +26,10 @@ public class VisualizacaoMenuSteps {
 
 	}
 
-	@Então("são apresentados os itens {string}, {string}")
+	@Então("será apresentado o item {string} do menu {string}")
 	public void são_apresentados_os_itens_e(String string, String string2) {
 
-		menupage.validarElementosSubMenu(string, string2);
+		menupage.validarElementosSubMenu(string2, string);
 
 	}
 
